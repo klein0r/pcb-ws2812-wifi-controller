@@ -1,8 +1,8 @@
-# ColoLight Custom PCB
+# WS2812 Wifi Controller Custom PCB
 
 ## Preview
 
-![PCB Preview](https://raw.githubusercontent.com/klein0r/pcb-cololight-custom/master/preview.png)
+![PCB Preview](https://raw.githubusercontent.com/klein0r/pcb-ws2812-wifi-controller/master/preview.png)
 
 ## License
 
