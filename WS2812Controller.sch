@@ -1,13 +1,12 @@
 EESchema Schematic File Version 4
-LIBS:WS2812Controller-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "WS2812 Controller"
-Date "2019-11-17"
-Rev "0.1"
+Date "2021-05-07"
+Rev "0.2"
 Comp "haus-automatisierung.com"
 Comment1 "Matthias Kleine"
 Comment2 ""
@@ -101,7 +100,7 @@ F 3 "" H 3800 900 50  0001 C CNN
 $EndComp
 Connection ~ 7100 3400
 $Comp
-L Connector:USB_B_Micro J1
+L WS2812Controller-rescue:USB_B_Micro-Connector J1
 U 1 1 5C938411
 P 1600 1900
 F 0 "J1" V 1702 2230 50  0000 L CNN
