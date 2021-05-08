@@ -1,4 +1,6 @@
-# WS2812 Wifi Controller Custom PCB
+# WS2812 / SK6812 Wifi Controller Custom PCB
+
+Control your addressable LED with custom software like [WLED](https://github.com/Aircoookie/WLED)
 
 ## Preview
 
@@ -6,11 +8,27 @@
 
 ## Components
 
-- ...
+- C1, C2: Capacitor 0805 100μF
+- C3: Capacitor Radial 3.8mm 1000μF 6.3V
+- J1: Micro USB Port (power supply, optional when using J4)
+- J2: 2.54mm Male Pin Headers (for flashing)
+- J3: PHC 1725669 - MPT 0,5/ 3-2,54
+- J4: 5.08mm Terminal Block (power supply, optional when using J1)
+- R1, R2, R3, R4, R5: Resistor 0805 10k
+- R6: Resistor 0805 330
+- SW1, SW2: Push Button 3*6*2.5mm
+- U1: AMS1117-3.3 SOT 223
+- U2: ESP-12F
 
 ## GPIO
 
 - GPIO4 = Data line of addressable strip
+
+## Older Versions
+
+**0.1 - See git tag / releases**
+
+![PCB Preview](https://raw.githubusercontent.com/klein0r/pcb-ws2812-wifi-controller/master/preview_01.png)
 
 ## License
 

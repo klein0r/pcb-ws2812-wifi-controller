@@ -1922,7 +1922,7 @@
     (fp_text reference U2 (at -10.56 -5.26) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value ESP-12F (at -0.06 -12.78) (layer F.Fab)
+    (fp_text value ESP-12F (at -0.06 -3.22554) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -8 -12) (end 8 -12) (layer F.Fab) (width 0.12))
@@ -2095,7 +2095,7 @@
     (fp_text reference C3 (at 1.9 -5.25 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1000µF (at 1.9 5.25 90) (layer F.Fab)
+    (fp_text value 1000µF (at 1.9 2.27546 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 1.9 0) (end 5.9 0) (layer F.Fab) (width 0.1))
@@ -2485,7 +2485,7 @@
   (gr_text RST (at 122.26036 75.83678 90) (layer F.SilkS) (tstamp 5DD1F52B)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text 10kΩ (at 121.6 80.2) (layer F.SilkS)
+  (gr_text 10kΩ (at 120.4 84.4 90) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.13)))
   )
   (gr_text AMS1117-3.3 (at 119.1387 88.07704 90) (layer F.SilkS)
