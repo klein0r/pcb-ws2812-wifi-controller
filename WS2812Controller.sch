@@ -103,8 +103,8 @@ $Comp
 L WS2812Controller-rescue:USB_B_Micro-Connector J1
 U 1 1 5C938411
 P 1600 1900
-F 0 "J1" V 1702 2230 50  0000 L CNN
-F 1 "USB_B_Micro" V 1611 2230 50  0000 L CNN
+F 0 "J1" V 1350 2100 50  0000 L CNN
+F 1 "USB_B_Micro" V 1350 1600 50  0000 L CNN
 F 2 "Connector_USB:USB_Micro-B_Molex_47346-0001" H 1750 1850 50  0001 C CNN
 F 3 "~" H 1750 1850 50  0001 C CNN
 	1    1600 1900
@@ -383,7 +383,7 @@ U 1 1 5DE1E3B4
 P 3500 5800
 F 0 "J3" H 3580 5842 50  0000 L CNN
 F 1 "Conn_01x03" H 3580 5751 50  0000 L CNN
-F 2 "halibs:SolderPads3" H 3500 5800 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-3-2.54_1x03_P2.54mm_Horizontal" H 3500 5800 50  0001 C CNN
 F 3 "~" H 3500 5800 50  0001 C CNN
 	1    3500 5800
 	1    0    0    -1  
@@ -473,11 +473,11 @@ $EndComp
 Wire Notes Line
 	700  5050 4150 5050
 Wire Notes Line
-	4150 5050 4150 6700
+	4150 5050 4150 7650
 Wire Notes Line
-	4150 6700 700  6700
+	4150 7650 700  7650
 Wire Notes Line
-	700  6700 700  5050
+	700  7650 700  5050
 Wire Wire Line
 	7450 1250 9850 1250
 $Comp
@@ -501,4 +501,31 @@ Wire Wire Line
 	4950 1900 4950 2050
 Wire Wire Line
 	4950 2050 4100 2050
+Text Notes 700  5050 0    50   ~ 0
+Addressable Strip Connection
+$Comp
+L Connector:Conn_01x02_Male J4
+U 1 1 6096D0BC
+P 1550 2750
+F 0 "J4" V 1704 2562 50  0000 R CNN
+F 1 "Conn_01x02_Male" V 1613 2562 50  0000 R CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 1550 2750 50  0001 C CNN
+F 3 "~" H 1550 2750 50  0001 C CNN
+	1    1550 2750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1550 2550 1550 2350
+Wire Wire Line
+	1550 2350 1100 2350
+Wire Wire Line
+	1100 2350 1100 1250
+Wire Wire Line
+	1100 1250 1400 1250
+Wire Wire Line
+	1650 2550 1650 2350
+Wire Wire Line
+	1650 2350 2150 2350
+Wire Wire Line
+	2150 2350 2150 1900
 $EndSCHEMATC

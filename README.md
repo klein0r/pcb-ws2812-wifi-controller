@@ -4,6 +4,14 @@
 
 ![PCB Preview](https://raw.githubusercontent.com/klein0r/pcb-ws2812-wifi-controller/master/preview.png)
 
+## Components
+
+- ...
+
+## GPIO
+
+- GPIO4 = Data line of addressable strip
+
 ## License
 
 The MIT License (MIT)

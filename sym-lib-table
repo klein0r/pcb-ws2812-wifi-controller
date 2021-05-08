@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name WS2812Controller-rescue)(type Legacy)(uri ${KIPRJMOD}/WS2812Controller-rescue.lib)(options "")(descr ""))
+)
