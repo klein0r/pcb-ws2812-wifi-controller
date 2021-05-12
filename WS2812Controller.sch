@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "WS2812 Controller"
-Date "2021-05-07"
-Rev "0.2"
+Date "2021-05-12"
+Rev "0.3"
 Comp "haus-automatisierung.com"
 Comment1 "Matthias Kleine"
 Comment2 ""
@@ -99,19 +99,6 @@ F 3 "" H 3800 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 7100 3400
-$Comp
-L WS2812Controller-rescue:USB_B_Micro-Connector J1
-U 1 1 5C938411
-P 1600 1900
-F 0 "J1" V 1350 2100 50  0000 L CNN
-F 1 "USB_B_Micro" V 1350 1600 50  0000 L CNN
-F 2 "Connector_USB:USB_Micro-B_Molex_47346-0001" H 1750 1850 50  0001 C CNN
-F 3 "~" H 1750 1850 50  0001 C CNN
-	1    1600 1900
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	2000 1900 2150 1900
 Connection ~ 2700 1900
 $Comp
 L Device:R R1
@@ -183,10 +170,6 @@ NoConn ~ 5300 2800
 NoConn ~ 6500 2700
 NoConn ~ 6500 2500
 NoConn ~ 6500 2400
-NoConn ~ 2000 2000
-NoConn ~ 1600 1600
-NoConn ~ 1700 1600
-NoConn ~ 1800 1600
 Wire Wire Line
 	3200 1750 3200 1900
 Wire Wire Line
@@ -339,8 +322,6 @@ GPIO0
 Wire Wire Line
 	9650 2000 9900 2000
 Wire Wire Line
-	1400 1250 1400 1600
-Wire Wire Line
 	5900 3400 5900 3750
 Wire Notes Line
 	700  600  10850 600 
@@ -468,11 +449,11 @@ $EndComp
 Wire Notes Line
 	700  5050 4150 5050
 Wire Notes Line
-	4150 5050 4150 7650
+	4150 5050 4150 6750
 Wire Notes Line
-	4150 7650 700  7650
+	4150 6750 700  6750
 Wire Notes Line
-	700  7650 700  5050
+	700  6750 700  5050
 Wire Wire Line
 	7450 1250 9850 1250
 $Comp
@@ -498,27 +479,14 @@ Wire Wire Line
 	4950 2050 4100 2050
 Text Notes 700  5050 0    50   ~ 0
 Addressable Strip Connection
-$Comp
-L Connector:Conn_01x02_Male J4
-U 1 1 6096D0BC
-P 1550 2750
-F 0 "J4" V 1704 2562 50  0000 R CNN
-F 1 "Conn_01x02_Male" V 1613 2562 50  0000 R CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 1550 2750 50  0001 C CNN
-F 3 "~" H 1550 2750 50  0001 C CNN
-	1    1550 2750
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
-	1550 2550 1550 2350
+	1550 2550 1550 2500
 Wire Wire Line
 	1550 2350 1100 2350
 Wire Wire Line
-	1100 2350 1100 1250
-Wire Wire Line
 	1100 1250 1400 1250
 Wire Wire Line
-	1650 2550 1650 2350
+	1650 2550 1650 2500
 Wire Wire Line
 	1650 2350 2150 2350
 Wire Wire Line
@@ -528,4 +496,46 @@ Wire Wire Line
 Connection ~ 2150 1250
 Wire Wire Line
 	2150 1250 2400 1250
+$Comp
+L Device:Fuse F1
+U 1 1 60A11576
+P 1100 1800
+F 0 "F1" H 1160 1846 50  0000 L CNN
+F 1 "Fuse" H 1160 1755 50  0000 L CNN
+F 2 "halibs:Fuse-PTF75_Stelvio" V 1030 1800 50  0001 C CNN
+F 3 "~" H 1100 1800 50  0001 C CNN
+	1    1100 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 1650 1100 1250
+Wire Wire Line
+	1100 2350 1100 1950
+$Comp
+L Connector:Conn_01x04_Male J1
+U 1 1 60A1F65F
+P 1550 2750
+F 0 "J1" V 1704 2462 50  0000 R CNN
+F 1 "Conn_01x04_Male" V 1613 2462 50  0000 R CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal" H 1550 2750 50  0001 C CNN
+F 3 "~" H 1550 2750 50  0001 C CNN
+	1    1550 2750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1450 2550 1450 2500
+Wire Wire Line
+	1450 2500 1550 2500
+Connection ~ 1550 2500
+Wire Wire Line
+	1550 2500 1550 2350
+Wire Wire Line
+	1750 2550 1750 2500
+Wire Wire Line
+	1750 2500 1650 2500
+Connection ~ 1650 2500
+Wire Wire Line
+	1650 2500 1650 2350
+Text Label 1200 2350 0    50   ~ 0
+SUPPLY
 $EndSCHEMATC

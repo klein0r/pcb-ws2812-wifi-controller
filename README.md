@@ -9,11 +9,11 @@ Control your addressable LED with custom software like [WLED](https://github.com
 ## Components
 
 - C1, C2: Capacitor 0805 100μF
-- C3: Capacitor Radial 3.8mm 1000μF 6.3V
-- J1: Micro USB Port (power supply, optional when using J4)
-- J2: 2.54mm Male Pin Headers (for flashing)
-- J3: PHC 1725669 - MPT 0,5/ 3-2,54
-- J4: 5.08mm Terminal Block (power supply, optional when using J1)
+- C3: Capacitor Radial 3.8mm 1000μF 6.3
+- F1: Stelvio Kontek STV PTF/75 + Fuse 5x20mm, 10A
+- J1: PHC 1725672 - MPT 0,5 / 4-2,54
+- J2: 1x5 2.54mm Male Pin Headers (for flashing - soldering not required)
+- J3: PHC 1725669 - MPT 0,5 / 3-2,54
 - R1, R2, R3, R4, R5: Resistor 0805 10k
 - R6: Resistor 0805 330
 - SW1, SW2: Push Button 3*6*2.5mm
