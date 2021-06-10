@@ -8,7 +8,7 @@ Control your addressable LED with custom software like [WLED](https://github.com
 
 ## Components
 
-- C1, C2: Capacitor 0805 100μF
+- C1, C2: Capacitor 0805 100nF
 - C3: Capacitor Radial 3.8mm 1000μF 6.3
 - F1: Stelvio Kontek STV PTF/75 + Fuse 5x20mm, 10A
 - J1: PHC 1725672 - MPT 0,5 / 4-2,54

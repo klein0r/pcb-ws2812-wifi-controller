@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "WS2812 Controller"
-Date "2021-05-12"
-Rev "0.3"
+Date "2021-06-10"
+Rev "0.4"
 Comp "haus-automatisierung.com"
 Comment1 "Matthias Kleine"
 Comment2 ""
@@ -122,7 +122,7 @@ L Device:C C1
 U 1 1 5C937EEC
 P 2150 1550
 F 0 "C1" H 2265 1596 50  0000 L CNN
-F 1 "100µF" H 2265 1505 50  0000 L CNN
+F 1 "100nF" H 2265 1505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2188 1400 50  0001 C CNN
 F 3 "~" H 2150 1550 50  0001 C CNN
 	1    2150 1550
@@ -138,7 +138,7 @@ L Device:C C2
 U 1 1 5C953168
 P 3200 1600
 F 0 "C2" H 3315 1646 50  0000 L CNN
-F 1 "100µF" H 3315 1555 50  0000 L CNN
+F 1 "100nF" H 3315 1555 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3238 1450 50  0001 C CNN
 F 3 "~" H 3200 1600 50  0001 C CNN
 	1    3200 1600
