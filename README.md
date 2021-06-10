@@ -2,6 +2,8 @@
 
 Control your addressable LED with custom software like [WLED](https://github.com/Aircoookie/WLED)
 
+[Gerber-Files](https://github.com/klein0r/pcb-ws2812-wifi-controller/releases)
+
 ## Preview
 
 ![PCB Preview](https://raw.githubusercontent.com/klein0r/pcb-ws2812-wifi-controller/master/preview.png)
@@ -10,7 +12,7 @@ Control your addressable LED with custom software like [WLED](https://github.com
 
 - C1, C2: Capacitor 0805 100nF
 - C3: Capacitor Radial 3.8mm 1000μF 6.3
-- F1: Stelvio Kontek STV PTF/75 + Fuse 5x20mm, 10A
+- F1: Stelvio Kontek STV PTF/75 + Fuse 5x20mm, 5A (max. 6A)
 - J1: PHC 1725672 - MPT 0,5 / 4-2,54
 - J2: 1x5 2.54mm Male Pin Headers (for flashing - soldering not required)
 - J3: PHC 1725669 - MPT 0,5 / 3-2,54
