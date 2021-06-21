@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "WS2812 Controller"
-Date "2021-06-10"
+Date "2021-06-21"
 Rev "0.4"
 Comp "haus-automatisierung.com"
 Comment1 "Matthias Kleine"
