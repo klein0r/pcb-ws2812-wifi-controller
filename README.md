@@ -26,6 +26,10 @@ Control your addressable LED with custom software like [WLED](https://github.com
 
 - GPIO4 = Data line of addressable strip
 
+## Cases
+
+- [Case by DrNuke33](https://www.thingiverse.com/thing:4909109)
+
 ## Older Versions
 
 **0.1 - See git tag / releases**
