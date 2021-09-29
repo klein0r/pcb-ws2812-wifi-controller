@@ -2,6 +2,7 @@
 # Format documentation: http://kicad-pcb.org/help/file-formats/
 
 gerber/*
+.DS_Store
 
 # Temporary files
 *.000

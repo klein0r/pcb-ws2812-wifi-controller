@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "WS2812 Controller"
 Date "2021-09-29"
-Rev "0.4"
+Rev "0.5"
 Comp "haus-automatisierung.com"
 Comment1 "Matthias Kleine"
 Comment2 ""
