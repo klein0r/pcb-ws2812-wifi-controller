@@ -21,6 +21,7 @@ Control your addressable LED with custom software like [WLED](https://github.com
 - SW1, SW2: Push Button 3*6*2.5mm
 - U1: AMS1117-3.3 SOT 223
 - U2: ESP-12F
+- U3: SN74AHCT125DR
 
 ## GPIO
 
