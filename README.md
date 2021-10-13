@@ -8,6 +8,8 @@ Control your addressable LED with custom software like [WLED](https://github.com
 
 ![PCB Preview](https://raw.githubusercontent.com/klein0r/pcb-ws2812-wifi-controller/master/preview.png)
 
+![PCB Photo](https://raw.githubusercontent.com/klein0r/pcb-ws2812-wifi-controller/master/previewReal.jpg)
+
 ## Components
 
 - C1, C2: Capacitor 0805 100nF
