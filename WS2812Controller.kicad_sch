@@ -6,8 +6,8 @@
 
   (title_block
     (title "WS2812 Controller")
-    (date "2021-09-29")
-    (rev "0.5")
+    (date "2022-01-30")
+    (rev "0.6")
     (company "haus-automatisierung.com")
     (comment 1 "Matthias Kleine")
   )
