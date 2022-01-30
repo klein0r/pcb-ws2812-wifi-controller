@@ -3,13 +3,15 @@
 
 gerber/*
 .DS_Store
-WS2812Controller-backups/*
 
 # Temporary files
 *.000
 *.bak
 *.bck
 *.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups
+*.kicad_prl
 *.sch-bak
 *~
 _autosave-*
