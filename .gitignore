@@ -3,6 +3,7 @@
 
 gerber/*
 .DS_Store
+WS2812Controller-backups/*
 
 # Temporary files
 *.000
