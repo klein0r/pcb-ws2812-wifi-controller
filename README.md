@@ -35,9 +35,23 @@ Control your addressable LED with custom software like [WLED](https://github.com
 
 ## Older Versions
 
-**0.1 - See git tag / releases**
+*See git tag / releases*
+
+**0.1**
 
 ![PCB Preview](https://raw.githubusercontent.com/klein0r/pcb-ws2812-wifi-controller/0.1/preview.png)
+
+**0.2**
+
+![PCB Preview](https://raw.githubusercontent.com/klein0r/pcb-ws2812-wifi-controller/0.2/preview.png)
+
+**0.3**
+
+![PCB Preview](https://raw.githubusercontent.com/klein0r/pcb-ws2812-wifi-controller/0.3/preview.png)
+
+**0.4**
+
+![PCB Preview](https://raw.githubusercontent.com/klein0r/pcb-ws2812-wifi-controller/0.4/preview.png)
 
 ## License
 
