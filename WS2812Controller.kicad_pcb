@@ -10,7 +10,7 @@
 	(title_block
 		(title "WS2812 Controller")
 		(date "2024-05-07")
-		(rev "0.7")
+		(rev "0.8")
 		(company "haus-automatisierung.com")
 		(comment 1 "Matthias Kleine")
 	)
@@ -8139,7 +8139,7 @@
 			)
 		)
 	)
-	(gr_text "v0.7"
+	(gr_text "v0.8"
 		(at 115.7224 104.267 0)
 		(layer "F.SilkS")
 		(uuid "5b0a5a46-7b51-4262-a80e-d33dd1806615")
@@ -8399,14 +8399,6 @@
 		(uuid "1bdd5841-68b7-42e2-9447-cbdb608d8a08")
 	)
 	(segment
-		(start 134.652 78.3356)
-		(end 134.652 79.3356)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "27b2eb82-662b-42d8-90e6-830fec4bb8d2")
-	)
-	(segment
 		(start 145.93014 72.70104)
 		(end 146.56014 73.33104)
 		(width 0.25)
@@ -8437,22 +8429,6 @@
 		(layer "F.Cu")
 		(net 2)
 		(uuid "66218487-e316-4467-9eba-79d4626ab24e")
-	)
-	(segment
-		(start 134.652 79.3356)
-		(end 133.04906 80.93854)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "79476267-290e-445f-995b-0afd0e11a4b5")
-	)
-	(segment
-		(start 133.04906 80.93854)
-		(end 132.14096 80.93854)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "8b290a17-6328-4178-9131-29524d345539")
 	)
 	(segment
 		(start 132.112 72.550602)
